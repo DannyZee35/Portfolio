@@ -81,23 +81,23 @@ const Navbar = () => {
           {isOpen && (
             <div className="fixed top-[70px] w-screen h-screen bg-black z-50"  >
               <nav className="z-50 w-full max-w-[800px] m-auto rounded-full gap-2 text-white font-bold flex items-center justify-center flex-col mt-[150px]">
-                <Link href={"/home"} className="px-3 hover:text-[#AFFFFF]">
+                <Link href={"#home"} className="px-3 hover:text-[#AFFFFF]" onClick={()=>setOpen(!isOpen)}>
                   Home
                 </Link>
                 <div className="w-[1px] h-[1.5rem] customDivider"></div>
-                <Link href={"#about"} className="px-3 hover:text-[#AFFFFF]">
+                <Link href={"#about"} className="px-3 hover:text-[#AFFFFF]" onClick={()=>setOpen(!isOpen)}>
                   About Me
                 </Link>
                 <div className="w-[1px] h-[1.5rem] customDivider"></div>
-                <Link href={"#projects"} className="px-3 hover:text-[#AFFFFF]">
+                <Link href={"#projects"} className="px-3 hover:text-[#AFFFFF]" onClick={()=>setOpen(!isOpen)}>
                   Work
                 </Link>
                 <div className="w-[1px] h-[1.5rem] customDivider"></div>
-                <Link href={"#services"} className="px-3 hover:text-[#AFFFFF]">
+                <Link href={"#services"} className="px-3 hover:text-[#AFFFFF]" onClick={()=>setOpen(!isOpen)}>
                   Services
                 </Link>
                 <div className="w-[1px] h-[1.5rem] customDivider"></div>
-                <Link href={"#contact"} className="px-3 hover:text-[#AFFFFF]">
+                <Link href={"#contact"} className="px-3 hover:text-[#AFFFFF]" onClick={()=>setOpen(!isOpen)}>
                   Contact
                 </Link>
               </nav>
