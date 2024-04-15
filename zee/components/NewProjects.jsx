@@ -3,8 +3,8 @@ import CardComponent from "./CardComponent";
 
 const NewProjects = () => {
   return (
-    <div id="projects" className="bg-white p-20 mb-[100px]">
-      <h1 className="font-bold  text-black text-center mb-[100px] text-7xl">Projects</h1>
+    <div id="projects" className="bg-white  pt-20 pb-20 mb-[100px]">
+      <h1 className="font-bold  text-black mb-[100px] sm:text-7xl text-5xl   text-center">Projects</h1>
       <div className="flex items-center justify-center gap-20 flex-col" >
       <div className="flex items-center justify-center gap-20 flex-col sm:flex-row">
         <CardComponent image="/swift.png" name={"Swift Raffles"} to={'https://swift-raffles-two.vercel.app/entries'}/>

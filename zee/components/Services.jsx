@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div id="services" className="serviceBG  py-20 sm:p-[100px]  z-20 relative pb-[100px]">
       <div className=" ">
-        <h1 className="font-bold  text-white text-center  text-7xl  ">
+        <h1 className="font-bold  text-white sm:text-7xl text-5xl  text-center  ">
           Services
         </h1>
         <div className="  p-8 sm:p-0 flex flex-col sm:flex-row items-center sm:items-start justify-center mt-20 gap-10 ">

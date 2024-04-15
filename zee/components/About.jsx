@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div id="about" className="p-10 sm:p-0 max-w-[1100px] m-auto">
-      <h1 className="font-bold  text-white  text-7xl  ">About Me</h1>
+      <h1 className="font-bold  text-white  sm:text-7xl text-5xl sm:text-start text-center ">About Me</h1>
       <p className="text-normal text-white  mt-14 text-xl" >
         I am Danial Aziz, a seasoned web developer and programmer holding a
         Bachelor's degree in <span>Software Engineering</span> from{" "}
