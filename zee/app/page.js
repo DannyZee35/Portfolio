@@ -31,12 +31,12 @@ export default function Home() {
           <div className="relative  ">
            </div>
           <div className=" ">
-          <span className="bg-gradient bg-clip-text text-transparent font-bold inline-block text-xl mb-5">
+        {/*  <span className="bg-gradient bg-clip-text text-transparent font-bold inline-block text-xl mb-5">
               Director | Web Developer at W & B Global Ltd
-            </span>
-            {/* <span className="bg-gradient bg-clip-text text-transparent font-bold inline-block text-xl mb-5">
-              Web Developer | Programmer | Freelancer
             </span> */}
+             <span className="bg-gradient bg-clip-text text-transparent font-bold inline-block text-xl mb-5">
+              Web Developer | Programmer | Freelancer
+            </span>
             <h1 className="mb-5 text-4xl leading-normal font-bold">
               Unleashing Full-Stack Prowess for Exceptional Web Development
               Services

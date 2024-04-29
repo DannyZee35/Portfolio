@@ -30,7 +30,7 @@ const Services = () => {
             description={"Embark on a complete web journey with our fullstack expertise. seamlessly integrating frontend and backend capabilities for cohesive user experiences. From concept to execution, we deliver versatile and precise web solutions that elevate your digital presence."}
           />
         </div>
-        <div className="  p-8 sm:p-0  flex flex-col sm:flex-row items-center sm:items-start justify-center mt-10 sm:mt-20 gap-10">
+        {/* <div className="  p-8 sm:p-0  flex flex-col sm:flex-row items-center sm:items-start justify-center mt-10 sm:mt-20 gap-10">
           <Cards
             number={"04"}
             heading={"Desktop Applications"}
@@ -46,7 +46,9 @@ const Services = () => {
             heading={"AI / Machine Learning"}
             description={"Our AI/ML services provide businesses with intelligent solutions, leveraging advanced algorithms for data-driven decision-making. From predictive analytics to natural language processing, we offer adaptable solutions tailored to enhance operations. Embrace the future of technology with our streamlined AI/ML services.            "}
           />
+     
         </div>
+           */} 
       </div>
 
       <div className="absolute top-[26%] left-[0%] -z-10  right-auto bottom-auto">
